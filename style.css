@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: white;
+}
+
+/* HEADER */
+header {
+    height: 75px;
+    background: #080808;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+.logo, footer h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+
+.logo span, footer span {
+    background: #f5c518;
+    color: black;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #f5c518;
+}
+
+button, .btn {
+    background: #f5c518;
+    color: black;
+    border: none;
+    padding: 12px 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login {
+    border-radius: 5px;
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 10%;
+    background: linear-gradient(120deg, #171717, #292929);
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 span, h2 span {
+    color: #f5c518;
+}
+
+.hero-text p {
+    color: #bbb;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    max-width: 400px;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hero-image img {
+    height: 280px;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid #f5c518;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px black;
+}
+
+/* BOOK COLLECTION */
+.books {
+    text-align: center;
+    padding: 65px 8%;
